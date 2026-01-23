@@ -16,7 +16,7 @@ tls_config:
 redirect_legacy_clients_to: ''
 server_icon: 'server-icon.png'
 server_motd:
-- '&6CraftHaven-Multiplayer - A server for everyone! Join on EaglercraftX 1.8x ~ 1.12.2! Server also available on Vanilla Minecraft: Java and Bedrock editions! Server still in beta, expect bugs!'
+- '&6CraftHaven-Multiplayer - A server for everyone! Join on EaglercraftX 1.8x ~ 1.12.2, or Java and Bedrock! '
 allow_motd: true
 allow_query: true
 show_motd_player_list: true
