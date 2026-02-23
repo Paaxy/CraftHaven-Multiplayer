@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "savanna": "2026-02-23 04:08:51 +0000",
+      "savanna_rock": "2026-02-23 04:08:25 +0000"
+    },
+    "done": false
+  }
+}

@@ -78,3 +78,31 @@
 
 [01-23 07:27:17]: [FINE] YeelerYee9130 logged in 0:0:0:0:0:0:0:1%0
 [01-23 07:30:59]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[02-23 04:07:40]: [INFO] SQLite Setup finished
+[02-23 04:07:40]: [INFO] No supported permissions system found! Permissions are disabled!
+[02-23 04:07:41]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-23 04:07:41]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[02-23 04:07:41]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-23 04:07:41]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-23 04:07:41]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-23 04:07:41]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[02-23 04:07:41]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[02-23 04:08:47]: [FINE] Anonymous_Gamer registered 0:0:0:0:0:0:0:1%0
+[02-23 04:08:47]: [FINE] The user Anonymous_Gamer has 2 accounts:
+[02-23 04:08:47]: [FINE] §7yeeleryee9130, §aAnonymous_Gamer§7.
+[02-23 04:08:47]: [FINE] Anonymous_Gamer logged in 0:0:0:0:0:0:0:1%0

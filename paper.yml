@@ -14,14 +14,14 @@ config-version: 13
 settings:
   load-permissions-yml-before-plugins: true
   bungee-online-mode: true
+  save-player-data: true
+  use-alternative-luck-formula: false
+  min-chunk-load-threads: 2
   sleep-between-chunk-saves: false
   region-file-cache-size: 256
   save-empty-scoreboard-teams: false
   incoming-packet-spam-threshold: 300
   remove-invalid-statistics: false
-  save-player-data: true
-  use-alternative-luck-formula: false
-  min-chunk-load-threads: 2
   suggest-player-names-when-null-tab-completions: true
   watchdog:
     early-warning-every: 5000
@@ -37,9 +37,9 @@ settings:
   max-player-auto-save-per-tick: -1
 messages:
   kick:
-    authentication-servers-down: ''
     flying-player: Flying is not enabled on this server
     flying-vehicle: Flying is not enabled on this server
+    authentication-servers-down: ''
 timings:
   enabled: true
   verbose: true
@@ -123,6 +123,7 @@ world-settings:
     duplicate-uuid-saferegen-delete-range: 32
     keep-spawn-loaded-range: 6
     auto-save-interval: -1
+    fire-physics-event-for-redstone: false
     nether-ceiling-void-damage: false
     allow-non-player-entities-on-scoreboards: false
     container-update-tick-rate: 1
@@ -170,7 +171,6 @@ world-settings:
     disable-thunder: false
     skeleton-horse-thunder-spawn-chance: 0.01
     disable-ice-and-snow: false
-    fire-physics-event-for-redstone: false
     spawner-nerfed-mobs-should-jump: false
     baby-zombie-movement-speed: 0.5
     allow-leashing-undead-horse: false
